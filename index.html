@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PakWheels Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">PakWheels</div>
+      <nav class="nav">
+        <a href="#">Buy</a>
+        <a href="#">Sell</a>
+        <a href="#">Auto Store</a>
+        <a href="#">Reviews</a>
+        <a href="#">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Find Your Next Car</h1>
+      <p>Search from thousands of used cars across Pakistan</p>
+      <div class="search-bar">
+        <input type="text" placeholder="Search by make, model or city">
+        <button>Search</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features container">
+    <div class="feature-box">
+      <h3>Buy a Car</h3>
+      <p>Browse used and new vehicles for sale.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Sell a Car</h3>
+      <p>Post your ad and reach millions of buyers.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Car Reviews</h3>
+      <p>Read expert and user reviews before buying.</p>
+    </div>
+  </section>
+  <!-- Car Listings Section -->
+<section class="listings container">
+    <h2>Featured Cars</h2>
+    <div class="listing-grid">
+      <!-- Car Card 1 -->
+      <div class="car-card">
+        <img src="corolla.avif" alt="Toyota Corolla">
+        <h3>Toyota Corolla 2021</h3>
+        <p class="price">PKR 4,200,000</p>
+        <p class="location">Lahore, Punjab</p>
+        <button>View Details</button>
+      </div>
+  
+      <!-- Car Card 2 -->
+      <div class="car-card">
+        <img src="Honda_Civic.webp" alt="Honda Civic">
+        <h3>Honda Civic 2022</h3>
+        <p class="price">PKR 5,800,000</p>
+        <p class="location">Karachi, Sindh</p>
+        <button>View Details</button>
+      </div>
+  
+      <!-- Car Card 3 -->
+      <div class="car-card">
+        <img src="alto.jfif" alt="Suzuki Alto">
+        <h3>Suzuki Alto 2023</h3>
+        <p class="price">PKR 2,150,000</p>
+        <p class="location">Islamabad</p>
+        <button>View Details</button>
+      </div>
+    </div>
+  </section>
+  <!-- Post Your Ad Section -->
+<section class="post-ad container">
+    <h2>Post Your Car Ad</h2>
+    <form class="ad-form">
+      <div class="form-group">
+        <label for="title">Car Title</label>
+        <input type="text" id="title" name="title" placeholder="e.g. Honda Civic 2020" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="price">Price (PKR)</label>
+        <input type="number" id="price" name="price" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="location">City</label>
+        <input type="text" id="location" name="location" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="image">Upload Image</label>
+        <input type="file" id="image" name="image" accept="image/*">
+      </div>
+  
+      <div class="form-group full">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="4" placeholder="Enter car details..."></textarea>
+      </div>
+  
+      <button type="submit">Submit Ad</button>
+    </form>
+  </section>
+  <!-- Browse Cars Section -->
+<section class="browse-cars container">
+    <h2>Browse Cars</h2>
+  
+    <div class="browse-grid">
+  
+      <div class="browse-category">
+        <h3>By Make</h3>
+        <ul>
+          <li><a href="#">Toyota</a></li>
+          <li><a href="#">Honda</a></li>
+          <li><a href="#">Suzuki</a></li>
+          <li><a href="#">Kia</a></li>
+          <li><a href="#">Hyundai</a></li>
+        </ul>
+      </div>
+  
+      <div class="browse-category">
+        <h3>By City</h3>
+        <ul>
+          <li><a href="#">Lahore</a></li>
+          <li><a href="#">Karachi</a></li>
+          <li><a href="#">Islamabad</a></li>
+          <li><a href="#">Rawalpindi</a></li>
+          <li><a href="#">Multan</a></li>
+        </ul>
+      </div>
+  
+      <div class="browse-category">
+        <h3>By Price</h3>
+        <ul>
+          <li><a href="#">Under PKR 1M</a></li>
+          <li><a href="#">1M – 2M</a></li>
+          <li><a href="#">2M – 3M</a></li>
+          <li><a href="#">3M – 4M</a></li>
+          <li><a href="#">Above 4M</a></li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+  <!-- PakWheels Offerings Section -->
+<section class="offerings container">
+    <h2>PakWheels Offerings</h2>
+  
+    <div class="offerings-grid">
+  
+      <div class="offering-card">
+        <img src="pw-inspection-.png" alt="CarSure">
+        <h3>CarSure Inspection</h3>
+        <p>Get your car inspected by professionals before you buy.</p>
+      </div>
+  
+      <div class="offering-card">
+        <img src="sell it.png"Sell It For Me">
+        <h3>Sell It For Me</h3>
+        <p>Let PakWheels sell your car at the best price, hassle-free.</p>
+      </div>
+  
+      <div class="offering-card">
+        <img src="pw-ownership-transfer.png"Auto Store">
+        <h3>Auto Store</h3>
+        <p>Buy genuine car parts and accessories online with confidence.</p>
+      </div>
+  
+      <div class="offering-card">
+        <img src="pw-car-finance.png"Car Finance">
+        <h3>Car Finance</h3>
+        <p>Apply for car financing at low markup rates from leading banks.</p>
+      </div>
+  
+      <div class="offering-card">
+        <img src="pw-car-insurance.png"Insurance">
+        <h3>Car Insurance</h3>
+        <p>Get your car insured instantly with top insurance providers.</p>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- New Cars by Make -->
+<section class="new-cars-make container">
+    <h2>New Cars by Make</h2>
+  
+    <div class="make-grid">
+      <div class="make-card">
+        <img src="toyota.jfif"Toyota Logo">
+        <p>Toyota</p>
+      </div>
+  
+      <div class="make-card">
+        <img src="honda.jfif"Honda Logo">
+        <p>Honda</p>
+      </div>
+  
+      <div class="make-card">
+        <img src="suzuki.png"Suzuki Logo">
+        <p>Suzuki</p>
+      </div>
+  
+      <div class="make-card">
+        <img src="Kia-Logo.png"Kia Logo">
+        <p>Kia</p>
+      </div>
+  
+      <div class="make-card">
+        <img src="b4VFMLdjLx3TudR9xCMeDT.jpg"Hyundai Logo">
+        <p>Hyundai</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Car Comparisons -->
+<section class="car-comparisons container">
+  <h2>Compare Cars</h2>
+
+  <div class="compare-form">
+    <select>
+      <option disabled selected>Select Car 1</option>
+      <option>Toyota Corolla 2021</option>
+      <option>Honda Civic 2022</option>
+      <option>Suzuki Swift 2023</option>
+    </select>
+
+    <select>
+      <option disabled selected>Select Car 2</option>
+      <option>Toyota Corolla 2021</option>
+      <option>Honda Civic 2022</option>
+      <option>Suzuki Swift 2023</option>
+    </select>
+
+    <button>Compare</button>
+  </div>
+
+  <div class="comparison-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Toyota Corolla 2021</th>
+          <th>Honda Civic 2022</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Price</td>
+          <td>PKR 4,200,000</td>
+          <td>PKR 5,800,000</td>
+        </tr>
+        <tr>
+          <td>Engine</td>
+          <td>1.8L</td>
+          <td>1.5L Turbo</td>
+        </tr>
+        <tr>
+          <td>Transmission</td>
+          <td>Automatic</td>
+          <td>CVT</td>
+        </tr>
+        <tr>
+          <td>Mileage</td>
+          <td>12 km/l</td>
+          <td>14 km/l</td>
+        </tr>
+        <tr>
+          <td>Fuel Type</td>
+          <td>Petrol</td>
+          <td>Petrol</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+  
+  
+  
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 PakWheels Clone. Built for educational purposes.</p>
+  </footer>
+
+</body>
+</html>
